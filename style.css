@@ -1,3 +1,7 @@
+:root {
+    --blue: #38bdf8;
+}
+
 body {
     display: grid;
     grid-template-columns: repeat(5, 20%);
@@ -5,14 +9,15 @@ body {
 }
 
 .header-container {
-    grid-area: 1 / 2 / 6 / 2;
+    grid-area: 1 / 2 / 2 / 6;
     display: grid;
     grid-template-columns: ;
     grid-template-rows: ;
 }
 
 .sidebar-container {
-    grid-area: 1 / 1 / 2 / 6;
+    grid-area: 1 / 1 / 6 / 2;
+    background-color: var(--blue);
 }
 
 .content-container {
