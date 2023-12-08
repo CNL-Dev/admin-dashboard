@@ -1,0 +1,17 @@
+body {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.header-container {
+    grid-area: 1 / 2 / 6 / 2;
+}
+
+.sidebar-container {
+    grid-area: 1 / 1 / 2 / 6;
+}
+
+.content-container {
+    grid-area: 2 / 2 / 6 / 6;
+}
