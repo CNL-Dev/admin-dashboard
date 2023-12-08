@@ -1,5 +1,7 @@
 :root {
     --blue: #38bdf8;
+    --grey: #e5e7eb;
+    --white: #fafafa;
 }
 
 body {
@@ -9,6 +11,7 @@ body {
 }
 
 .header-container {
+    background-color: var(--white);
     grid-area: 1 / 2 / 2 / 6;
     display: grid;
     grid-template-columns: ;
@@ -21,5 +24,6 @@ body {
 }
 
 .content-container {
+    background-color: var(--grey);
     grid-area: 2 / 2 / 6 / 6;
 }
