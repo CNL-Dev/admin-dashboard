@@ -1,11 +1,14 @@
 body {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(5, 20%);
 }
 
 .header-container {
     grid-area: 1 / 2 / 6 / 2;
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: ;
 }
 
 .sidebar-container {
