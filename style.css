@@ -21,6 +21,9 @@ body {
 .sidebar-container {
     grid-area: 1 / 1 / 6 / 2;
     background-color: var(--blue);
+    display: grid;
+    grid-template-columns: 10%;
+    grid-template-rows: repeat(15, 7.5%);
 }
 
 .content-container {
