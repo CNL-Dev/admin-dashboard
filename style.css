@@ -14,8 +14,8 @@ body {
     background-color: var(--white);
     grid-area: 1 / 2 / 2 / 6;
     display: grid;
-    grid-template-columns: ;
-    grid-template-rows: ;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
 }
 
 .sidebar-container {
