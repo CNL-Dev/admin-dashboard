@@ -44,4 +44,7 @@ body {
 .content-container {
     background-color: var(--grey);
     grid-area: 2 / 2 / 6 / 6;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(4, 25%);
 }
