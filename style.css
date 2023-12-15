@@ -33,6 +33,14 @@ body {
     grid-template-rows: repeat(15, 7.5%);
 }
 
+.logo-container, .sidebar-main-buttons-container,
+.sidebar-utility-buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .content-container {
     background-color: var(--grey);
     grid-area: 2 / 2 / 6 / 6;
