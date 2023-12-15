@@ -48,3 +48,15 @@ body {
     grid-template-columns: repeat(3, 33%);
     grid-template-rows: repeat(4, 25%);
 }
+
+.user-projects {
+    grid-area: 1 / 1 / 4 / 3;
+}
+
+.user-announcements {
+    grid-area: 1 / 3 / 3 / 4;
+}
+
+.user-trending {
+    grid-area: 3 / 3 / 5 / 4;
+}
