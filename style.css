@@ -41,6 +41,18 @@ body {
     align-items: center;
 }
 
+.logo-container {
+    grid-area: 1 / 1 / 1 / 2;
+}
+
+.sidebar-main-buttons-container {
+    grid-area: 2 / 1 / 8 / 2;
+}
+
+.sidebar-utility-buttons-container {
+    grid-area: 8 / 1 / 15 / 2;
+}
+
 .content-container {
     background-color: var(--grey);
     grid-area: 2 / 2 / 6 / 6;
