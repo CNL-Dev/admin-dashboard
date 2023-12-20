@@ -65,9 +65,12 @@ body {
     grid-area: 1 / 1 / 4 / 3;
 }
 
-.project-container {
+.project-container, .announcements-container,
+.trending-container {
     background-color: var(--white);
     border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
 }
 
 .announcements-container {
