@@ -2,6 +2,7 @@
     --blue: #38bdf8;
     --grey: #e5e7eb;
     --white: #fafafa;
+    --pure-white: #fff;
 }
 
 body {
@@ -63,6 +64,11 @@ body {
 
 .projects-container {
     grid-area: 1 / 1 / 4 / 3;
+}
+
+.project-container {
+    background-color: var(--pure-white);
+    border-radius: 5px;
 }
 
 .announcements-container {
