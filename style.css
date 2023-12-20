@@ -11,6 +11,11 @@ body {
     grid-template-rows: repeat(5, 20%);
 }
 
+img {
+    width: 25px;
+    height: auto;
+}
+
 .header-container {
     background-color: var(--white);
     grid-area: 1 / 2 / 2 / 6;
