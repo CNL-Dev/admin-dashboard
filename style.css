@@ -2,6 +2,7 @@
     --blue: #38bdf8;
     --grey: #e5e7eb;
     --white: #fafafa;
+    --dark-grey: #d1d5db;
 }
 
 body {
@@ -15,7 +16,9 @@ body {
     grid-area: 1 / 2 / 2 / 6;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 50% 50%;  
+    box-shadow: 0 5px 8px var(--dark-grey); 
+    z-index: 1;
 }
 
 .search-container, .user-profile-container,
