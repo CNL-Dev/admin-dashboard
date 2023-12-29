@@ -108,3 +108,8 @@ a {
 .trending-container {
     grid-area: 3 / 3 / 5 / 4;
 }
+
+.bold-text {
+    font-weight: 600;
+    font-size: 1.3em;
+}
