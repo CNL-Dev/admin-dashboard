@@ -41,6 +41,12 @@ a {
     align-items: center;
 }
 
+.search-container {
+    display: flex;
+    justify-content: stretch;
+    padding-left: 40px;
+}
+
 .sidebar-container {
     grid-area: 1 / 1 / 6 / 2;
     background-color: var(--blue);
@@ -99,6 +105,11 @@ a {
     border-radius: 5px;
     padding: 5px;
     margin: 10px;
+}
+
+.project-icons-container {
+    display: flex;
+    justify-content: right;
 }
 
 .announcements-container {
