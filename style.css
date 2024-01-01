@@ -121,6 +121,11 @@ button {
 .project-icons-container {
     display: flex;
     justify-content: right;
+    margin-right: 15px;
+}
+
+.project-icons-container > a {
+    margin-left: 1.1rem;
 }
 
 .announcements-container {
