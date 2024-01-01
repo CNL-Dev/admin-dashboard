@@ -24,6 +24,17 @@ a {
     color: var(--white);
 }
 
+button {
+    border: none;
+    border-radius: 50px;
+    color: var(--white);
+    background-color: var(--blue);
+    width: 100px;
+    height: 40px;
+    margin: 15px;
+    font-weight: 700;
+}
+
 .header-container {
     background-color: var(--white);
     grid-area: 1 / 2 / 2 / 6;
