@@ -75,6 +75,11 @@ button {
     align-items: left;
 }
 
+.logo-container, .sidebar-main-buttons-container,
+.sidebar-utility-buttons-container > a {
+    margin-bottom: 20px;
+}
+
 .logo-container {
     grid-area: 1 / 1 / 1 / 2;
 }
@@ -96,6 +101,7 @@ button {
 .sidebar-icons > img {
     width: 40px;
     height: auto;
+    margin-right: 25px;
 }
 
 .content-container {
