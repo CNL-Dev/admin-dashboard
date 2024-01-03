@@ -104,6 +104,18 @@ button {
     margin-right: 25px;
 }
 
+.sidebar-icons-large {
+    display: flex;
+    flex-direction: row;
+    font-size: 35px;
+}
+
+.sidebar-icons-large > img {
+    width: 50px;
+    height: auto;
+    margin-right: 35px;
+}
+
 .content-container {
     background-color: var(--grey);
     grid-area: 2 / 2 / 6 / 6;
